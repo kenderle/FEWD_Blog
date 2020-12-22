@@ -39,6 +39,19 @@ footer {
   padding-top: 20px;
 }
 
+.sidebar-right {
+  height: 60vh;
+  width: 20vw;
+  position: fixed;
+  z-index: 1;
+  color: #111;
+  right: 0;
+  margin-left: 10px;
+  background-color: #ff4500;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
 .sidebar a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -52,9 +65,7 @@ footer {
 }
 
 .main {
-  max-width: 600px;
   margin-top: 1.2in;
-  margin-left: 200px;
   padding: 0px 10px;
   position: static;
   z-index: 0;
@@ -107,7 +118,8 @@ footer {
 .about-me {
   display: inline-flexbox;
   flex-flow: row wrap;
-  width: auto;
+  width: 70vw;
+  margin: 10px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
