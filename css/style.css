@@ -1,0 +1,76 @@
+@import "layout.css";
+@import "blog-cards.css";
+@import "photos.css";
+@import "typography.css";
+
+body {
+    background: snow;
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 0 5px 0;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 45px auto 45px 30px;
+}
+
+.post {
+    grid-column: 2;
+    grid-row: 2;
+    width: 60vw;
+    margin-left: 20%;
+    border: 3px groove saddlebrown;
+    text-align: center;
+    background-color: seashell;
+}
+
+.post a {
+    color: navy;
+}
+
+href {
+    color: blueviolet;
+}
+
+a {
+    color: snow;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+  }
+
+  .fa:hover {
+    opacity: 0.8;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }

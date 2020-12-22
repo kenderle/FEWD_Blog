@@ -1,0 +1,50 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+#maincat,
+#compucat,
+#boxedcat {
+    height: 275px;
+    width: auto;
+    border: groove;
+    margin: 10px;
+    margin-left: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#couchkitty {
+    height: 175px;
+    width: auto;
+    align-items: center;
+}
+
+#horror {
+    height: 400px;
+    width: auto;
+    align-self: center;
+}
+
+#sleepy,
+#bedcat,
+#poufcat {
+    height: 225px;
+    width: auto;
+    align-self: center;
+    display: inline-flexbox;
+    flex-flow: row wrap;
+}
+
+#catvatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+figure {
+    display: grid;
+    grid-column: 2;
+}

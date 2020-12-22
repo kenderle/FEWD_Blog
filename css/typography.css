@@ -1,0 +1,21 @@
+p {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: medium;
+}
+
+.blog-title {
+    font-style: bold;
+}
+
+.quote {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: slategrey;
+    font-style: italic;
+    font-kerning: auto;
+    font-size: 2em;
+}
+
+#closer {
+    text-decoration: underline;
+}
